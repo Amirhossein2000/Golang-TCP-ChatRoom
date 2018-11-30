@@ -6,7 +6,11 @@ the dafualt listening port is 9000 .
 
 remmeber you have to use Telnet Command .
 
-Ex : telnet localhost:9000
+Ex : telnet localhost:9000.
+
+use command go build to compile the programm .
+
+
 
 
 
