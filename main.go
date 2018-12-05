@@ -1,4 +1,4 @@
-package Golang_TCP_ChatRoom
+package main
 
 import (
 	"log"
