@@ -1,11 +1,22 @@
 package main
 
-import "net"
+import (
+	"bufio"
+	"net"
+)
 
 type User struct {
-	id      int
-	name    string
-	cnn     net.Conn
-	groups  map[int]string
-	friends []int
+	id          int
+	name        string
+	cnn         net.Conn
+	chatscanner *bufio.Scanner
+	groups      map[int]string
+	friends     []int
+	chatrequest ChatRequest
+}
+
+type ChatRequest struct {
+	hostid      int
+	guestid     int
+	guestaccept bool
 }

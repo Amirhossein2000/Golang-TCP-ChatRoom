@@ -15,7 +15,7 @@ func main() {
 
 	ln, err := net.Listen("tcp", ":"+port)
 
-	log.Println("lisening on",port)
+	log.Println("lisening on", port)
 
 	errcheck(err)
 	defer ln.Close()
@@ -24,7 +24,5 @@ func main() {
 		errcheck(err)
 		go handle(cnn)
 	}
-
-	log.Println("Connection Ended")
 
 }
