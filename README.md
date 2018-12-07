@@ -1,14 +1,14 @@
 # Golang-TCP-ChatRoom
 
-this is a simple TCP chat room in Golang .
+This is a simple TCP chat room in Golang .
 
-the dafualt listening port is 9000 .
+The dafualt listening port is 9000 .
 
-remmeber you have to use Telnet Command .
+Use command go build to compile the programm .
 
-Ex : telnet localhost:9000.
+Remmeber you have to use Telnet Command .
 
-use command go build to compile the programm .
+Example : telnet localhost 9000.
 
 
 
