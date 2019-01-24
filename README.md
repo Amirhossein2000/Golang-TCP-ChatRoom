@@ -9,7 +9,7 @@ Use command go build to compile the programm .
 Remmeber you have to use Telnet Command .
 
 ```
-telnet localhost 9000.
+telnet localhost 9000
 ```
 
 
